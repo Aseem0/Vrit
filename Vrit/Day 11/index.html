@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<div lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    
+    <title>Bootstrap</title>
+  </head>
+  <div>
+    <!-- Bootstrap Component -->
+    <!-- List group Component -->
+    <ul class="list-group">
+      <li class="list-group-item">Apple</li>
+      <li class="list-group-item">Test</li>
+      <li class="list-group-item">Hello</li>
+    </ul>
+
+    <!-- Card Component -->
+<div class="d-flex justify-content-around gap-4 align-content-center flex-wrap" >
+    <div class="card m-auto" style="width:400px; height:auto">
+        <div class="card-header h-50">
+      <img
+        src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+        class="card-img-top h-100"
+        alt=""
+      />
+      </div>
+      <div class="card-body">
+      <h2>Apple</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A culpa ullam
+        sapiente ad nobis ipsum molestias debitis ab perspiciatis aut.
+      </p>
+    </div>
+ <div class="card-footer">
+    <button class="btn btn-secondary">View Details</button>
+    <button class="btn btn-danger">Delete</button>
+  </div>
+</div>
+<div class="card  m-auto"  style="width:400px; height:auto">
+    <div class="card-header h-50">
+  <img
+    src="data:image/jpeg;base64,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"
+    class="card-img-top h-100"
+
+    alt=""
+  />
+  </div>
+  <div class="card-body">
+  <h2>Test</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. A culpa ullam
+    sapiente ad nobis ipsum molestias debitis ab perspiciatis aut.
+  </p>
+</div>
+<div class="card-footer">
+<button class="btn btn-primary">View Details</button>
+<button class="btn btn-danger">Delete</button>
+</div>
+</div>
+    <div class="card m-auto"  style="width:400px; height:auto">
+        <div class="card-header h-50">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSjFFye81tsJblAnTxChzW2A6NgIYQKjfqZur96a96&s"
+        class="card-img-top h-100"
+    
+        alt=""
+      />
+      </div>
+      <div class="card-body">
+      <h2>Glass</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A culpa ullam
+        sapiente ad nobis ipsum molestias debitis ab perspiciatis aut.
+      </p>
+    </div>
+ <div class="card-footer">
+    <button class="btn btn-info">View Details</button>
+    <button class="btn btn-danger">Delete</button>
+  </div>
+</div>
+    <div class="card m-auto" style="width:400px; height:auto">
+        <div class="card-header h-50">
+      <img
+        src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+        class="card-img-top h-100"
+        alt=""
+      />
+      </div>
+      <div class="card-body">
+      <h2>Apple</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A culpa ullam
+        sapiente ad nobis ipsum molestias debitis ab perspiciatis aut.
+      </p>
+    </div>
+ <div class="card-footer">
+    <button class="btn btn-secondary">View Details</button>
+    <button class="btn btn-danger">Delete</button>
+  </div>
+</div>
+<div class="card  m-auto"  style="width:400px; height:auto">
+    <div class="card-header h-50">
+  <img
+    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHcAvgMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAACAAEDBAUGB//EADwQAAEDAgQEAwYDBgYDAAAAAAEAAgMEEQUSITEGE0FRYZGhFCJScYHRMpPhBxVCg7HBMzQ1RmJyFiMk/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EAB4RAQEBAAIDAQEBAAAAAAAAAAABEQITEiFRMQNh/9oADAMBAAIRAxEAPwD0cAIwE7WhGAumuOByog1GiCaYEMThiMIgmmADUYCdOiknTJ1Ak6a6V0BAJJsyQKAkkyV0CTFK6RKKBwN0uiIoSiGKFOUJKBtEBtdOUN1QARhQhyWdQWEQKqiRG190Fm6V1E1yIOQS3Suo7pXQS3Suo8yWZATnWCidNZHe6iey+26BjOk2e6gdE66OKMg67Ki819wnzAqAabJtUFhNdRhye6ArpFDdDmQEUBSuhLkDHdCk5yjLtUAdFG5NcpAogmghSsugaVKEDZinD0xuUJCipRIEWfsq2XxRtFuqCbOlmuoi4BROraWOTlvqImP3yueAfJBbzJXUDZ43gFj2uB7FFmQTZkswURdogHzVRYzJXVe5ThxQWLpXUIcjugO6RKjzJXQEShJTXQ3QIlAU5QoIQCiAUIrIfiCNtVD8QT2bEzUYKgFVD8QRieLo4eaGxISkEHOj+IeaXOZ8Q80w2HdYAknQLMgx7C5qt9LHWxGVgJcL2tbxUPFtd7Lw7XSRTGOTl5WOaMxDidF4a7FpXT8xkTYHMzNAaSCL7766m5+ZUvprjx2PdqzG6OKnlMNRGZrERh5ytc7pqdF5vi+JSwzyRVVYRUWzPOc/fXyXCMrp45H5aiZod+Jt84PzB0KfEK9lTIJszjI2NsRa5obYDsBpZRuccbNHxbUUtU8Nq618BaRZkmubodei9G/ZtjtTjc1Y3mVMlPCwH/6HAlridALa2te/0Xm+E01JNBE+olaXPFywNsG+BPddWyoiw6NtFhj+UZQDNJH7pt29CUS/HqVVVU9LG6SaVoDdwDc+Sw5uJmDMYo2tYNczz/VcfNVsZCyJjgG7kD+6xeJKofuiRgNxI5rXAdR2VZxu4x+08xB7MMjNTINOYGWjH16/RcVPx3xJNUc12Kzxm9w2M5Wj6KnGXOI98stsBt5KtibI5IW1LGhr82V4GxPdCcpuY9m/ZpxLiXENDUuxGNjhTuawVLdOY4i5BHcC2o7rtb3Xi/7H8f8AZa+XBpyBFVHmwk9JANR9QPRewiVtt/Va/Yzy9VMmUfNHceaYyt7jzTGfKJUJKi5oPUeaEyjv6ph5RK4oLqMyjuPNCZR3HmmHlHAivt/Ej/eB6OPmsJuLcQga4HD+X+qNuLcQEf6DCfHJ+qnd/jXTfrcbiDh/FZSNxN1tXnzWG3EuIj/t+H5Fv6opsS4gpoubPgNKyPuSPup2z4dN+ugOJOa2/MPmmbich2eT9VzsOMY3KM0fDsZHflkf1UoxjHWb8Os+QCds+L036ucTVJqcAqs8jxywJAAdyDsvMnscImucCDbMfG672qxPE6+jno58B5TJ43MMrGOJbcLi6z3WNa4ZZGtAcLa7LN5eVdOPHxmMxr8sl1XebukPjf1Ujz72iiv7zh3RpLBUOjtrstKDFJA3PmOa+6yMjug9QrNJSVVW/lUtNLK+1y2NpJsOqbg3G4u5zWkk7KGtxHmwZXE2uFjubPASyeOSNzTaz2lp9UUcjS60mrToVNFttUbAFoNuqiqJM1OfGQH0KQo5vxROY5nR1/7IKwhjBDuevS/itbkY8fabht0jcdw51ObSNqGEW7A6+l17C7GagOPvafNea8Ft9ildib8Nlrg28cYjJAY7S5NhvYhdgMbfJfLwtUO/mH7JP6Tj6Tn/ADvKth2NT9HFRnGam/4j5rKdik3XhSq/MP2TfvR9teFqofzCtdsY6a1nYzUNI94+aB2OTg6uKyXY2I9XcM1Y+b3fZUpuK8OY602DSMd2dNZTti9NdGccm7lAcbn7lc4eLsK3GES/npv/AC3Cnb4RN+er3ROjk9D9rhOlNTzzn/jHlHm6wRD2yTRsMMA7yPzu8hYequB/inDh3UbVHUD5f8xVyub8MVoh6a+qlZQUsb2ubE0vbs9wzOH1Oqsi3cJxlA1IUETqdr9D53KPlNGvbxVavxiioIi+eUNtsOpWCcRxXHHZMOj9lpusz/xEeCmkjTxnF6TCmZZnZpnf4cLfee8+AGq4PiCNmNSNqqjChTTH8WSfK97e7txf6Ert4cHpcNpZXRNc6d49+Z5zPd9ViSMcC4Bxsd7hS61PTz12ARzPcYpDE0b55A+31ACrz8PzB7WxTRyEi5O2q9IihYD7+3ayKXle9amY7TS4Cz7a15yzBagxlr2w6aHK1oPmtvhXAqiarNOyukpid3xLf9mMsxtCG5tzdWYKDkScwuBN7myVf1bh4Yp7GLEcXmqoXAh0Mmx/VcHiHDWGRYnLSOxCWkIJMUnK5rHj5XBB81276Rko0cRfe/RZ9XgRnjMbpGW1LTl1ae4VlZyuMdw+yB5EOLCZu1m00rb/AFF1XGAPbK1rnu5ZOrzG7T59fRdjRQwuc2hrYo2VLT7suXSRNVYLIwuAp22B6C6uq6LgDBKTCqWV8GItqXzgZ2tBa1tttDrfxXXcqB2rsh+a4/gvm0fNjeywcRYbWXZC51sFtzv6iMTS7/1zD/qbOH3QnnRg3pmSga3jNifofurN3dbJX0RGY/FKFkgjqS6nf2njLL/InQ/QqwYaeoZm5bJWHqCCFO8NeMrgCOx1VF+E0ZJdHFyXH+KFxYfRBUq+HcIqhabDYHeOQA+YWaeCcB6ULh4CV33WpJRV0JvTYg4gG+WZod67pvbcSi0momyHo6J/9ipkNW7nsoJTM3UHRQ1WJQwN1cL/ADXOV+PyzOMVI0uPcbBFxtVGImEF0kwaB0CyKriKqqRyMOYXHbmHZVaTC5614fWPcR8N9F01Fh9PTtAYwaKNMnCsAM0oqcReZZN/e6LqoYQxoa2waNgELIgNlO0WCrNqDErmldbsuTe0vfq+2q66qF4y3uFhOoAZM2ZUZ76ZoF8580Lad7Te9we61HUwsPBRuaRomGoWQm1ipBS5upums66s0+a6mLquaJwH4kMdLrq5abgSNVVlZqphqniGFw1Md9pG6tcDsVSpcQkjeKasJztNg74gtQtcNiVQxPDxUMzgAPGxUsXWzRsbcPGxW5FICwWXEYRiDoH+z1V77arq6eQPaCzZaiWL+ZIuVfMRunEl9FWUxcgLygLihc5ARcSozdMXIS5BwENJUVz80z9D0uugw/CYomj3Qkko21YogzQeimykJJIiWMqXMkkiAlNwqjhqkkgBzVXezVJJUNylYiiskkiJXNVeSO6SSKDIpGxgpJKVYysWwxrhzGABw1BQYPij4nCGYkkdU6SDomTiVul0bSnSVZFnQuckkioyUOZJJB//2Q=="
+    class="card-img-top h-100"
+
+    alt=""
+  />
+  </div>
+  <div class="card-body">
+  <h2>Test</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. A culpa ullam
+    sapiente ad nobis ipsum molestias debitis ab perspiciatis aut.
+  </p>
+</div>
+<div class="card-footer">
+<button class="btn btn-primary">View Details</button>
+<button class="btn btn-danger">Delete</button>
+</div>
+</div>
+    <div class="card m-auto"  style="width:400px; height:auto">
+        <div class="card-header h-50">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSjFFye81tsJblAnTxChzW2A6NgIYQKjfqZur96a96&s"
+        class="card-img-top h-100"
+    
+        alt=""
+      />
+      </div>
+      <div class="card-body">
+      <h2>Glass</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A culpa ullam
+        sapiente ad nobis ipsum molestias debitis ab perspiciatis aut.
+      </p>
+    </div>
+ <div class="card-footer">
+    <button class="btn btn-info">View Details</button>
+    <button class="btn btn-danger">Delete</button>
+  </div>
+</div>
+    <div class="card m-auto" style="width:400px; height:auto">
+        <div class="card-header h-50">
+      <img
+        src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+        class="card-img-top h-100"
+        alt=""
+      />
+      </div>
+      <div class="card-body">
+      <h2>Apple</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A culpa ullam
+        sapiente ad nobis ipsum molestias debitis ab perspiciatis aut.
+      </p>
+    </div>
+ <div class="card-footer">
+    <button class="btn btn-secondary">View Details</button>
+    <button class="btn btn-danger">Delete</button>
+  </div>
+</div>
+<div class="card  m-auto"  style="width:400px; height:auto">
+    <div class="card-header h-50">
+  <img
+    src="data:image/jpeg;base64,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"
+    class="card-img-top h-100"
+
+    alt=""
+  />
+  </div>
+  <div class="card-body">
+  <h2>Test</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. A culpa ullam
+    sapiente ad nobis ipsum molestias debitis ab perspiciatis aut.
+  </p>
+</div>
+<div class="card-footer">
+<button class="btn btn-primary">View Details</button>
+<button class="btn btn-danger">Delete</button>
+</div>
+</div>
+    <div class="card m-auto"  style="width:400px; height:auto">
+        <div class="card-header h-50">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSjFFye81tsJblAnTxChzW2A6NgIYQKjfqZur96a96&s"
+        class="card-img-top h-100"
+    
+        alt=""
+      />
+      </div>
+      <div class="card-body">
+      <h2>Glass</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A culpa ullam
+        sapiente ad nobis ipsum molestias debitis ab perspiciatis aut.
+      </p>
+    </div>
+ <div class="card-footer">
+    <button class="btn btn-info">View Details</button>
+    <button class="btn btn-danger">Delete</button>
+  </div>
+</div>
+</div>
+
+
+
+<!-- Modals -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Accordion Component -->
+
+ <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Apple
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Test
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Phone
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+      </div>
+    </div>
+  </div> 
+
+ <!-- Forms -->
+ <div class="card m-auto">
+    <div class="card-header">
+   <h3>Login Form</h3>
+</div>
+<div class="card-body">
+<form actions="">
+  
+<div>
+   <label for="" class="form-label">Email address</label>
+   <input type="text" class="form-control" placeholder="Enter your email addreess" />
+
+</div>
+<div>
+   <label for="" class="form-label">Password</label>
+   <input type="password" class="form-control" placeholder="Enter Password" />
+
+</div>
+</form>
+
+</div>
+<div class="card-footer">
+   <button class="btn btn-outline-success">Login</button>
+   <button class="btn btn-outline-danger">Cancel</button>
+
+</div>
+ </div>
+</Form> 
+ 
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
+ 

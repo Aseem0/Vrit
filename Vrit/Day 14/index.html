@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Comparison operators
+      let a = 30;
+      let b = "30";
+      console.log("a==b", a == b);
+      console.log("a===b", a === b);
+
+      console.log("a!=b", a != b);
+      console.log("a!==b", a !== b);
+
+      let x = 18;
+      console.log("x>=18", x >= 18);
+      console.log("x<18", x < 18);
+
+      //   Concat string
+      let text1 = "hello";
+      let text2 = " everyone";
+      let text3 = "!!";
+
+      const thirdString = text1 + text2 + text3;
+      console.log(thirdString);
+
+      //   Converting string to number
+      const string1 = "abc";
+      const string2 = "123";
+
+      const changeString1Num = Number(string1);
+      const changeString2Num = Number(string2);
+
+      console.log(
+        string1,
+        typeof string1,
+        changeString1Num,
+        typeof changeString1Num
+      );
+      console.log(
+        string2,
+        typeof string2,
+        changeString2Num,
+        typeof changeString2Num
+      );
+
+      // Logical operator
+      //   Logical Not
+      let email = "abc@gmail.com";
+      let password;
+      if (!email) {
+        console.log("Enter email to continue");
+      }
+      console.log("!email", !email);
+      console.log("!password", !password);
+
+      //   Logical AND
+      let student1 = 21;
+      let student2 = 17;
+      console.log("You can enter the club", student1 >= 18 && student2 >= 18);
+
+      //   Logical OR
+      console.log("One can enter if ", student1 >= 18 || student2 >= 18);
+
+      //   Object => Array
+
+      let carModel1 = {
+        name: "Marcedez",
+        madeYear: 2000,
+        madeIn: "USA",
+        color: "white",
+        isSold: false,
+        address: {
+          city: "Washinton",
+          postalCode: "999",
+        },
+      };
+      console.log(carModel1);
+      console.log(carModel1.name);
+    </script>
+  </body>
+</html>
